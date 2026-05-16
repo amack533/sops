@@ -1,35 +1,47 @@
-# SOP: <Titel>
+# <Titel der SOP — klar und verständlich>
 
-| Feld | Wert |
+> **In einem Satz:** <Was diese Anleitung erreicht.>
+
+| | |
 |---|---|
-| **ID** | SOP-XXX |
+| **Verantwortlich** | <Rolle oder Person> |
+| **Gültig ab** | JJJJ-MM-TT |
+| **Zuletzt aktualisiert** | JJJJ-MM-TT |
 | **Version** | 1.0 |
-| **Erstellt** | JJJJ-MM-TT |
-| **Aktualisiert** | JJJJ-MM-TT |
-| **Verantwortlich** | <Rolle / Person> |
 
-## Zweck
+---
 
-<Warum existiert diese SOP? Welches Ergebnis wird erreicht?>
+## Worum geht es?
 
-## Geltungsbereich
+<Kurzer, klarer Absatz: Welches Ziel verfolgt diese Anleitung und warum ist sie wichtig?>
 
-<Wann und für wen gilt diese SOP? Was ist ausdrücklich nicht abgedeckt?>
+## Wann nutze ich diese Anleitung?
 
-## Voraussetzungen
+<In welcher Situation kommt sie zum Einsatz? Für wen gilt sie? Was ist ausdrücklich nicht abgedeckt?>
 
-- <Benötigte Zugänge, Tools, Informationen>
+## Was du vorher brauchst
 
-## Ablauf
+- <Zugänge, Tools, Informationen oder Material, die bereitliegen müssen>
 
-1. <Schritt 1>
-2. <Schritt 2>
-3. <Schritt 3>
+## Schritt für Schritt
 
-## Ergebnis / Definition of Done
+### Schritt 1 — <kurze Überschrift>
 
-- <Woran erkennt man, dass die SOP korrekt abgeschlossen wurde?>
+<Was genau zu tun ist. Konkret und in ganzen Sätzen, sodass es auch jemand Neues versteht.>
 
-## Hinweise & Sonderfälle
+### Schritt 2 — <kurze Überschrift>
 
-- <Bekannte Ausnahmen, häufige Fehler, Eskalationswege>
+<...>
+
+### Schritt 3 — <kurze Überschrift>
+
+<...>
+
+## Fertig, wenn …
+
+- <Woran erkennt man eindeutig, dass die Aufgabe korrekt erledigt ist?>
+
+## Häufige Fragen & Sonderfälle
+
+- **<Frage oder Situation>** — <Antwort bzw. wie damit umzugehen ist.>
+- **Wenn etwas schiefläuft** — <An wen wenden, wie eskalieren?>

@@ -1,15 +1,23 @@
 # SOPs — Standard Operating Procedures
 
-Zentrale Sammlung von Standard Operating Procedures.
+Zentrale Sammlung klar verständlicher Arbeitsanleitungen.
 
-## Aufbau
+## So ist alles geordnet
 
-- Jede SOP ist eine eigene Markdown-Datei im Ordner `sops/`.
-- Dateinamen in Kleinbuchstaben mit Bindestrichen, z. B. `sops/kunden-onboarding.md`.
-- Neue SOPs basieren auf `templates/sop-template.md`.
+- **Jede SOP hat einen eigenen Ordner** unter `sops/`.
+- Die Ordner sind **nummeriert und sprechend benannt**, z. B. `sops/01-kunden-onboarding/`.
+  Die Nummer sorgt für eine erkennbare Reihenfolge, der Name sagt sofort, worum es geht.
+- In jedem SOP-Ordner liegt:
+  - `README.md` — die eigentliche Anleitung (wird beim Öffnen des Ordners direkt angezeigt).
+  - `assets/` — optionaler Ordner für Screenshots, Vorlagen oder Anhänge.
+- Neue SOPs entstehen immer aus der Vorlage `templates/sop-template.md`.
 
-## Verzeichnis
+## Übersicht aller SOPs
 
-_Noch keine SOPs vorhanden._
+| Nr. | SOP | Worum es geht |
+|-----|-----|---------------|
+| _–_ | _Noch keine SOPs vorhanden._ | |
 
-<!-- Neue SOPs hier eintragen: - [Titel](sops/datei.md) — kurze Beschreibung -->
+<!-- Neue SOP hier eintragen:
+| 01 | [Kunden-Onboarding](sops/01-kunden-onboarding/) | Kurzbeschreibung in einem Satz. |
+-->
