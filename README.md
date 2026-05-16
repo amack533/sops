@@ -17,3 +17,4 @@ A central collection of clear, easy-to-read work instructions.
 | No. | SOP | What it covers |
 |-----|-----|----------------|
 | 01 | [Lead Intake and Follow-Up](sops/01-lead-intake-and-follow-up/) | Capturing, contacting, and booking inbound leads so none are ever lost. |
+| 02 | [Content Publish-and-Send Workflow](sops/02-content-publish-and-send-workflow/) | Publishing content and deriving a newsletter from it in one controlled flow. |
