@@ -6,8 +6,8 @@
 |---|---|
 | **Responsible** | Intake owner (supported by the automation system) |
 | **Effective from** | 2026-02-06 |
-| **Last updated** | 2026-02-06 |
-| **Version** | 1.2 |
+| **Last updated** | 2026-05-17 |
+| **Version** | 1.3 |
 
 ---
 
@@ -72,6 +72,22 @@ A lead moves through six clearly defined stages. The number is deliberate: few e
 | **4. Booked** | An appointment is scheduled. |
 | **5. Disqualified** | The lead is not a fit; a reason is recorded. |
 | **6. Nurture** | No response after the follow-up sequence; moved to long-term contact. |
+
+The same six stages as a flow — every lead ends in one of the three defined end states (Booked, Nurture, or Disqualified):
+
+```mermaid
+flowchart TD
+    A([New Lead]) -->|first contact sent| B([Contacted])
+    B -->|lead responds| C([Engaged])
+    C -->|appointment booked| D([Booked])
+    B -->|no response after full sequence| N([Nurture])
+    A -->|not a fit / invalid contact| X([Disqualified])
+    C -->|not a fit| X
+
+    style D fill:#d4edda,stroke:#28a745,color:#000
+    style N fill:#fff3cd,stroke:#ffc107,color:#000
+    style X fill:#f8d7da,stroke:#dc3545,color:#000
+```
 
 A note on what is *not* here: there is no "in progress" or "working on it" stage. Those are the stages that feel productive but mean nothing, because they describe an intention rather than a fact. Every stage in this list is a fact about the lead that anyone can verify by looking.
 

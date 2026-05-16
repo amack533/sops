@@ -6,8 +6,8 @@
 |---|---|
 | **Responsible** | Content owner (supported by the automation system) |
 | **Effective from** | 2026-03-02 |
-| **Last updated** | 2026-03-02 |
-| **Version** | 1.0 |
+| **Last updated** | 2026-05-17 |
+| **Version** | 1.1 |
 
 ---
 
@@ -66,6 +66,20 @@ A piece of content moves through clearly defined states:
 | **Published** | Live on the website. |
 | **Newsletter generated** | A newsletter draft has been derived from the published content. |
 | **Sent** | The newsletter has been delivered to the audience. |
+
+The same states as a flow — generation is automatic, but the send is a separate human decision:
+
+```mermaid
+flowchart TD
+    A([Draft]) -->|marked ready to publish| B([Ready to publish])
+    B -->|publish + optimize images| C([Published])
+    C -->|generate newsletter draft| D([Newsletter generated])
+    D --> R{Reviewed and approved to send?}
+    R -->|yes, send| E([Sent])
+    R -->|no, hold as reviewed draft| D
+
+    style E fill:#d4edda,stroke:#28a745,color:#000
+```
 
 There is no "published, newsletter pending somewhere" state. Once content is Published, the newsletter is generated immediately and automatically. The only thing left to a human after that is the decision to send.
 
