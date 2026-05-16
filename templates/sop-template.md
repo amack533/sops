@@ -1,47 +1,47 @@
-# <Titel der SOP — klar und verständlich>
+# <SOP Title — clear and easy to understand>
 
-> **In einem Satz:** <Was diese Anleitung erreicht.>
+> **In one sentence:** <What this procedure achieves.>
 
 | | |
 |---|---|
-| **Verantwortlich** | <Rolle oder Person> |
-| **Gültig ab** | JJJJ-MM-TT |
-| **Zuletzt aktualisiert** | JJJJ-MM-TT |
+| **Responsible** | <Role or person> |
+| **Effective from** | YYYY-MM-DD |
+| **Last updated** | YYYY-MM-DD |
 | **Version** | 1.0 |
 
 ---
 
-## Worum geht es?
+## What this is about
 
-<Kurzer, klarer Absatz: Welches Ziel verfolgt diese Anleitung und warum ist sie wichtig?>
+<A short, clear paragraph: what goal does this procedure serve, and why does it matter?>
 
-## Wann nutze ich diese Anleitung?
+## When to use this
 
-<In welcher Situation kommt sie zum Einsatz? Für wen gilt sie? Was ist ausdrücklich nicht abgedeckt?>
+<In what situation does it apply? Who is it for? What is explicitly not covered?>
 
-## Was du vorher brauchst
+## What you need beforehand
 
-- <Zugänge, Tools, Informationen oder Material, die bereitliegen müssen>
+- <Access, tools, information, or material that must be ready>
 
-## Schritt für Schritt
+## Step by step
 
-### Schritt 1 — <kurze Überschrift>
+### Step 1 — <short heading>
 
-<Was genau zu tun ist. Konkret und in ganzen Sätzen, sodass es auch jemand Neues versteht.>
+<Exactly what to do. Concrete and in full sentences, so that someone new can follow it.>
 
-### Schritt 2 — <kurze Überschrift>
-
-<...>
-
-### Schritt 3 — <kurze Überschrift>
+### Step 2 — <short heading>
 
 <...>
 
-## Fertig, wenn …
+### Step 3 — <short heading>
 
-- <Woran erkennt man eindeutig, dass die Aufgabe korrekt erledigt ist?>
+<...>
 
-## Häufige Fragen & Sonderfälle
+## Done when …
 
-- **<Frage oder Situation>** — <Antwort bzw. wie damit umzugehen ist.>
-- **Wenn etwas schiefläuft** — <An wen wenden, wie eskalieren?>
+- <How do you know for certain the task is correctly completed?>
+
+## Common questions & edge cases
+
+- **<Question or situation>** — <Answer or how to handle it.>
+- **If something goes wrong** — <Who to contact, how to escalate?>
